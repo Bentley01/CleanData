@@ -1,7 +1,7 @@
 README
 ========================================================
 
-This document explains the raw data files and the use of a script (run_analysis.R) to transform the raw data into a cleaned, tidy dataset (cleanedData).
+This document explains the raw data files and the use of a script (run_analysis.R) to transform the raw data into a cleaned, tidy dataset (datameans.txt).
 
 The raw data is from the **Human Activity Recognition Using Smartphones Data Set** in the UCI Machine Learning Repository.  The raw data files include accelerometer and gyroscope readings along X, Y and Z axes, sampled at a constant rate of 50Hz.  There were 30 volunteer subjects in the study, and each case in the data set was labelled with the activity undertaken by the subject.  Each case included 561 variables.  Additional information can be found in the CodeBook.md file.
 

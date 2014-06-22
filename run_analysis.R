@@ -5,7 +5,7 @@
 ## If running this script on a different computer, please place data files in your current working directory
 ## and change the following line to reflect your current working directory
 
-setwd("C:/Rprogramming/Project/UCI HAR Dataset")
+setwd("C:/Rprogramming/Project/UCI HAR Dataset/CleanData")
 
 ## View list of project files
 

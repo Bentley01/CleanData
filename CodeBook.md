@@ -19,7 +19,7 @@ Various statistical calculations, such as minimum, maximum, mean, standard devia
 
 The research raw data was provided in two sets - training and test data.  Each set contained a file with the actual data observed, a file with the subject codes, and a file with the activity codes.
 
-The raw data files were transformed using the run_analysis.R script.  The following describes the transformations that result in the data.frame datameans, saved to XXXXXXXXXX.Rdata.
+The raw data files were transformed using the run_analysis.R script.  The following describes the transformations that result in the data.frame datameans, saved to datameans.txt.
 
 The training data (X_training.txt) was read into R using the read.table function.  The file contained 7352 observations of 561 variables.  Similarly, the activities represented by the observations (y_train.txt) and the subject ids (subject_train.txt) were read into R.  These three data frames were combined using the cbind function, resulting in a new data frame, training, with dimensions 7352 rows with 563 variables.
 
@@ -41,3 +41,5 @@ Using read.table, read in the activity descriptions from activity_labels.txt.  R
 Using the aggregate() function in R, created a new data frame (datameans), with one row for each combination of subject (30) and activity (6).  The values of the variables are equal to the mean of all values in cleanedData, for that row's combination of subject and activity.
 
 The resulting data.frame has 180 rows and 68 columns, including the subject and activity.
+
+Variable descriptions from the original study, **Human Activity Recognition Using Smartphones Data Set**, can be found in the project's features_info.txt file.
